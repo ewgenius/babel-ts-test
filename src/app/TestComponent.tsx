@@ -4,15 +4,13 @@
 
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { RaisedButton } from 'material-ui';
+import { AppBar, RaisedButton } from 'material-ui';
 
 interface ITest {
   text: string;
 }
 
-interface ITestState {
-
-}
+interface ITestState {}
 
 interface ITestProps {
   item: ITest;
@@ -33,6 +31,9 @@ export class TestComponent extends React.Component<ITestProps, ITestState> {
   render() {
     return (
       <div>
+        <AppBar>
+        </AppBar>
+
         <RaisedButton label="test button" primary={true} />
       </div>
     );
