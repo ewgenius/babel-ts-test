@@ -17,6 +17,7 @@ interface ITestProps {
 export class TestComponent extends React.Component<ITestProps, ITestState> {
   constructor() {
     super();
+    console.log('init');
     this.test = this.test.bind(this);
   }
 
