@@ -22,6 +22,8 @@
     ],
     "files": [
         "src/app/bootstrap.ts",
+        "typings/material-ui/material-ui.d.ts",
+        "typings/react-dom/react-dom.d.ts",
         "typings/react/react.d.ts",
         "typings/tsd.d.ts",
         "src/app/TestComponent.tsx"
