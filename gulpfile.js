@@ -29,7 +29,7 @@ function webpack(watch, callback) {
   if (watch) {
     webpackOptions.devtool = 'inline-source-map';
   }
-  return gulp.src(path.join(conf.paths.tmp_ts, '/main.js'))
+  return gulp.src(path.join(conf.paths.tmp_ts, '/bootstrap.js'))
     .pipe($.webpack(webpackOptions, null, () => {}))
     .pipe(gulp.dest(path.join(conf.paths.tmp_js)));
 }

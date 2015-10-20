@@ -21,8 +21,12 @@
         "!node_modules/**"
     ],
     "files": [
-        "src/A.ts",
-        "src/B.ts"
+        "src/app/A.ts",
+        "src/app/B.ts",
+        "src/app/bootstrap.ts",
+        "typings/react/react.d.ts",
+        "typings/tsd.d.ts",
+        "src/app/TestComponent.tsx"
     ],
     "exclude": []
 }
