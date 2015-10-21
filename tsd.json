@@ -16,6 +16,9 @@
     },
     "flux/flux.d.ts": {
       "commit": "68548c2daab053869f323d475419c693478bbb73"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "68548c2daab053869f323d475419c693478bbb73"
     }
   }
 }
