@@ -7,4 +7,9 @@ import * as ReactDOM from 'react-dom';
 import { TestComponent } from './components/TestComponent';
 import { App } from './components/App/App';
 
-ReactDOM.render(React.createElement(App), document.getElementById('main'));
+function run() {
+  ReactDOM.render(React.createElement(App), document.getElementById('main'));
+}
+
+console.log(document.readyState);
+document.addEventListener('DOMContentLoaded', run, false);
