@@ -26,7 +26,8 @@
         "typings/react-dom/react-dom.d.ts",
         "typings/react/react.d.ts",
         "typings/tsd.d.ts",
-        "src/app/TestComponent.tsx"
+        "src/components/App/App.tsx",
+        "src/components/TestComponent.tsx"
     ],
     "exclude": []
 }

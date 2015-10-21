@@ -34,5 +34,5 @@ function webpack(watch, callback) {
 gulp.task('scripts', () => webpack(false));
 
 gulp.task('watch', () => {
-  gulp.watch([conf.paths.tmp_ts + '/*.js'], ['scripts'])
+  gulp.watch([conf.paths.tmp_ts + '/**/*.js'], ['scripts'])
 });
