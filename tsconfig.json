@@ -21,7 +21,7 @@
         "!node_modules/**"
     ],
     "files": [
-        "src/app/bootstrap.ts",
+        "src/app.ts",
         "typings/material-ui/material-ui.d.ts",
         "typings/react-dom/react-dom.d.ts",
         "typings/react/react.d.ts",

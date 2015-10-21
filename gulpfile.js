@@ -5,7 +5,7 @@ var $ = require('gulp-load-plugins')();
 
 var conf = {
   paths: {
-    src: 'src/app',
+    src: 'src',
     tmp_ts: '.tmp/typescript',
     tmp_js: '.tmp/js'
   }
@@ -25,11 +25,7 @@ function webpack(watch, callback) {
       filename: 'index.js'
     }
   };
-
-  if (watch) {
-    webpackOptions.devtool = 'inline-source-map';
-  }
-  return gulp.src(path.join(conf.paths.tmp_ts, '/bootstrap.js'))
+  return gulp.src(path.join(conf.paths.tmp_ts, '/app.js'))
     .pipe($.webpack(webpackOptions, null, () => {}))
     .pipe(gulp.dest(path.join(conf.paths.tmp_js)));
 }
